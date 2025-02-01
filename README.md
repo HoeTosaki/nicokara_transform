@@ -2,8 +2,6 @@
 
 a sidetool-like routine for automatically transforming NetEase song list into NICO karaoke ver.
 
-<video src="final/[SHANA]想月.avi"></video>
-
 ## Environment Prepare
 
 1. For Python Running Env., make sure your Python version >= 3.7, and
@@ -73,7 +71,7 @@ folder at `D:\ニコカラ\git_repo\nicokara_transform\data\req_lrc\874284.lrc  
 
 After import the above two files, plz turn to `動画出力` and export the final video like this:
 
-![image-20250201231850546](final/image-20250201231850546.png)
+![image-20250201231850546](final/image-20250201231850546.jpg)
 
 Caution that exported video in `.avi`  format might be huge, post-processing to compress it is encouraged (like using ShanaEncoder).
 
