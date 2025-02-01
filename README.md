@@ -71,9 +71,9 @@ folder at `D:\ニコカラ\git_repo\nicokara_transform\data\req_lrc\874284.lrc  
 
 After import the above two files, plz turn to `動画出力` and export the final video like this:
 
+![image-20250201231850546](final/image-20250201231850546.png)
 
-
-exported video in `.avi`  format might be huge, post-processing to compress it is encouraged (like using ShanaEncoder).
+Caution that exported video in `.avi`  format might be huge, post-processing to compress it is encouraged (like using ShanaEncoder).
 
 
 
