@@ -2,6 +2,8 @@
 
 a sidetool-like routine for automatically transforming NetEase song list into NICO karaoke ver.
 
+<video src="final/[SHANA]想月.avi"></video>
+
 ## Environment Prepare
 
 1. For Python Running Env., make sure your Python version >= 3.7, and
