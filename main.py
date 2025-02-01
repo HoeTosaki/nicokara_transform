@@ -1,6 +1,7 @@
 import argparse
 from ipl_serv import SongListManager
 
+
 def all_in_one_routine(song_list_id,reg_wav_dirs,out_lrc_dir,force,allow_no_wav):
     print('start all in one routine.')
     slm = SongListManager(song_list_id=song_list_id)
@@ -8,6 +9,7 @@ def all_in_one_routine(song_list_id,reg_wav_dirs,out_lrc_dir,force,allow_no_wav)
     slm.refresh_meta(cache_url=None)
     slm.transform_lrcs(out_dir_name=out_lrc_dir,force=force,allow_no_wav=allow_no_wav)
     print('all in one routine normally finished.')
+
 
 if __name__ == '__main__':
     # print('hello lrc transform')
@@ -23,8 +25,8 @@ if __name__ == '__main__':
     if args.use_all_in_one:
         all_in_one_routine(args.song_list_id,args.reg_wav_dirs.split(':') if args.reg_wav_dirs is not None else None,
                            args.out_lrc_dirs,args.force,args.allow_no_wav)
-
-
+    else:
+        print('currently not supported operation.')
 
 
 
